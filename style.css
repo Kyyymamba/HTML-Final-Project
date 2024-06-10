@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('cctbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2e7d32;
+}
+
+#login-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .5rem; 
+    box-shadow: 0 0 1rem rgba(0,0,0,.3); 
+    padding: 20px;
+}
+
+.card-title, .jumbotron h1 {
+    font-family: 'Lora', serif; /* Apply Lora font */
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #1b5e20;
+    border: none;
+    border-radius: .5rem; 
+}
+
+.btn-primary:hover {
+    background-color: #145a32;
+}
+
+.form-control {
+    border: 1px solid #c8e6c9;
+    box-shadow: none;
+    border-radius: .5rem; 
+}
+
+.jumbotron {
+    background: linear-gradient(145deg, #a5d6a7, #81c784);
+    color: #1b5e20;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+    border-radius: 1rem; 
+    padding: 3rem 2rem;
+}
+
+.logo {
+    max-height: 50px; 
+    max-width: 100%; 
+}
+
+.logo-jumbotron {
+    max-height: 100px; 
+    max-width: 100%; 
+}
+
+.table {
+    background-color: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+thead {
+    background-color: #1b5e20;
+    color: white;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c8e6c9;
+}
+
+tbody tr:hover {
+    background-color: #a5d6a7;
+    transform: scale(1.01);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.table-bordered {
+    border: 1px solid #c8e6c9;
+}
+
+.compact-table th, .compact-table td {
+    padding: 8px 10px;
+}

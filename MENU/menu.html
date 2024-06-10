@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+	
+ 
+</head>
+
+<body>
+<div class="bg">
+  <div id="top" class="container">
+	<h1 align="center" style="font-size:100px; "> Kyrhon's Restaurant</h1><br>
+    <h1 align="center" style="font-size:120px; ">Menu</h1>
+
+    <button id="main-dish" class="button" onclick="document.getElementById('menu').scrollIntoView()"  title= "Main Dish">Main Dish</button>
+    <button class="button" onclick="document.getElementById('vegi').scrollIntoView()" title= "Vegetables">Vegetables</button>
+    <button class="button" onclick="document.getElementById('dessert').scrollIntoView()" title= "Dessert">Dessert</button>
+    <button class="button" onclick="document.getElementById('drinks').scrollIntoView()" title= "Drinks">Drinks</button>
+    <button class="button" onclick="document.getElementById('addon').scrollIntoView()" title= "Add-ons">Add-ons</button>
+
+    <br>
+
+		<div id="main-dishes" class="menu-section">
+		  
+		
+		
+						<h2 id="menu">Main Dishes</h2>
+						<div class="menu-item" >
+						<label>
+							<input type="checkbox" id="adobo" value="299">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+							<img src="adobo.jpg" alt="Adobo" title= "Adobo">
+							<input type="number" id="adoboNum" value="0">
+							
+								<div>
+									<h3>Adobo - 299</h3>
+									<p>A traditional Filipino dish made with pork marinated in vinegar, soy sauce, garlic, and spices.</p>
+								</div>
+								
+						</div>
+						<div class="menu-item">
+							<label>
+								<input type="checkbox" id="sinigang" value="289">
+								<p style="margin-left: 5px;">order</p>
+							</label>
+							<img src="Sinigang.jpg" alt="Sinigang" title= "Sinigang" >
+							<input type="number" id="sinigangNum" value="0">
+								<div>
+									<h3>Sinigang - 289</h3>
+									<p>A sour soup made with pork combined with vegetables flavored with tamarind.</p>
+								</div>
+						</div>
+						<div class="menu-item">
+						<label>
+								<input type="checkbox" id="lechon" value="319">
+								<p style="margin-left: 5px;">order</p>
+							</label>
+							
+							<img src="Lechon Kawali.jpg" alt="Lechon Kawali" title= "Lechon Kawali">
+							
+							<input type="number" id="lechonNum" value="0">
+								<div>
+									<h3>Lechon Kawali - 319</h3>
+									<p>Deep-fried pork belly served with a crispy skin and tender meat.</p>
+								</div>
+						</div>
+						<div class="menu-item">
+						<label>
+								<input type="checkbox" id="sisig" value="199">
+								<p style="margin-left: 5px;">order</p>
+							</label>
+							
+							<img src="Pork Sisig.jpg" alt="Pork Sisig" title= "Pork Sisig">
+							<input type="number" id="sisigNum" value="0">
+								<div>
+									<h3>Pork Sisig - 199</h3>
+									<p>A sizzling dish made with chopped pig's face and liver, seasoned with calamansi and chili peppers.</p>
+								</div>
+						</div>
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="karekare" value="299">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+						
+							<img src="Kare-Kare.jpg" alt="Kare-Kare" title= "Kare-Kare">
+							<input type="number" id="karekareNum" value="0">
+								<div>
+									<h3>Kare-Kare - 299</h3>
+									<p>A stew made with oxtail, tripe, and vegetables cooked in a peanut sauce, served with shrimp paste.</p>
+								</div>
+						</div> 
+		
+			<h2 id="vegi">Vegetables</h2>
+			<div class="menu-item">
+			<label>
+				<input type="checkbox" id="ampalaya" value="149">
+				<p style="margin-left: 5px;">order</p>
+			</label>
+				
+				<img src="Ginisang Ampalaya.jpg" alt="Ginisang Ampalaya" title= "Ginisang Ampalaya">
+				<input type="number" id="ampalayaNum" value="0">
+					<div>
+						<h3>Ginisang Ampalaya - 149</h3>
+						<p>Sauteed bitter melon with tomatoes and onions.</p>
+					</div>
+			</div>	
+			<div class="menu-item">
+			<label>
+				<input type="checkbox" id="pinakbet" value="249">
+				<p style="margin-left: 5px;">order</p>
+			</label>
+			
+				<img src="Pinakbet.jpg" alt="Pinakbet" title= "Pinakbet">
+				<input type="number" id="pinakbetNum" value="0">	
+					<div>
+						<h3>Pinakbet - 249</h3>
+						<p>Mixed vegetables cooked in shrimp paste.</p>
+					</div>
+			</div>		
+			<div class="menu-item">
+			<label>
+				<input type="checkbox" id="langka" value="259">
+				<p style="margin-left: 5px;">order</p>
+			</label>
+			
+				<img src="Ginataang Langka.jpg" alt="Ginataang Langka" title= "Ginataang Langka">
+				<input type="number" id="langkaNum" value="0">	
+					<div>
+						<h3>Ginataang Langka - 259</h3>
+						<p>Young jackfruit in coconut milk.</p>
+					</div>
+			</div>		
+		
+		
+						<h2 id="dessert">Desserts</h2>
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="halohalo" value="139">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+							
+							<img src="Halo-Halo.jpg" alt="Halo-Halo" title= "Halo-Halo">
+							<input type="number" id="halohaloNum" value="0">
+								<div>
+									<h3>Halo-Halo - 139</h3>
+									<p>Filipino shaved ice dessert with mixed toppings.</p>
+								</div>
+						</div>
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="pandan" value="109">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+						
+							<img src="Buko Pandan.jpg" alt="Buko Pandan" title= "Buko Pandan">
+							<input type="number" id="pandanNum" value="0">
+								<div>
+									<h3>Buko Pandan - 109</h3>
+									<p>Young coconut and pandan-flavored jelly in cream.</p>
+								</div>
+						</div>
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="lecheflan" value="99">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+						
+							<img src="Leche Flan.jpg" alt="Leche Flan" title= "Leche Flan">
+							<input type="number" id="lecheflanNum" value="0">
+								<div>
+									<h3>Leche Flan - 99</h3>
+									<p>Creamy caramel custard dessert.</p>
+								</div>
+						</div>
+			
+			<h2 id="drinks">Drinks</h2>
+			<div class="menu-item">
+			<label>
+				<input type="checkbox" id="bj" value="79">
+				<p style="margin-left: 5px;">order</p>
+			</label>
+			
+				<img src="Buko Juice.jpg" alt="Buko Juice" title= "Buko Juice">
+				<input type="number" id="bjNum" value="0">
+					<div>
+						<h3>Buko Juice - 79</h3>
+						<p>Chilled fresh coconut water.</p>
+					</div>
+			</div>		
+			<div class="menu-item">
+			<label>
+				<input type="checkbox" id="mango" value="99">
+				<p style="margin-left: 5px;">order</p>
+			</label>
+			
+				<img src="Mango Juice.jpg" alt="Mango Juice" title= "Mango Juice">
+				<input type="number" id="mangoNum" value="0">
+					<div>
+						<h3>Mango Juice - 99</h3>
+						<p>Fresh juice from ripe mangoes.</p>
+					</div>
+			</div>
+			<div class="menu-item">
+			<label>
+				<input type="checkbox" id="sago" value="79">
+				<p style="margin-left: 5px;">order</p>
+			</label>
+			
+				<img src="Sago't Gulaman.jpg" alt="Sago't Gulaman" title= "Sago't Gulaman">
+				<input type="number" id="sagoNum" value="0">
+					<div>
+						<h3>Sago't Gulaman - 79</h3>
+						<p>Tapioca pearls and jelly in sweet syrup.</p>
+					</div>
+			</div>	
+						
+						<h2 id="addon">Add-ons</h2>
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="sinangag" value="49">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+						
+							<img src="Sinangag.jpg" alt="Sinangag" title= "Sinangag">
+							<input type="number" id="sinangagNum" value="0">
+								<div>
+									<h3>Sinangag - 49</h3>
+									<p>Filipino garlic fried rice.</p>
+								</div>
+						</div>
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="talong" value="59">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+						
+							<img src="Ensaladang Talong.jpg" alt="Ensaladang Talong" title= "Ensaladang Talong">
+							<input type="number" id="talongNum" value="0">
+								<div>
+									<h3>Ensaladang Talong - 59</h3>
+									<p>Grilled eggplant salad.</p>
+								</div>
+						</div>
+						
+						<div class="menu-item">
+						<label>
+							<input type="checkbox" id="atchara" value="99">
+							<p style="margin-left: 5px;">order</p>
+						</label>
+						
+							<img src="Atchara.jpg" alt="Atchara" title= "Atchara">
+							<input type="number" id="atcharaNum" value="0">
+								<div>
+									<h3>Atchara - 99</h3>
+									<p>Pickled papaya relish.</p>
+								</div>
+						</div>
+		</div>
+		<button id="checkout" class="button" onclick="alertReceipt()" style="background-color: gray; color: yellow; margin-left:30px;">Check Order</button>
+		
+		<button class="button" onclick="newWindowReceipt()" style="background-color: gray; color: brown; margin-left:570px;">Print Receipt</button>
+		
+	</div>
+	<button class="button" onclick="document.getElementById('top').scrollIntoView()" style="background-color: lightgray; color: black; left:40px; position: fixed; bottom: 50px;">Back to Top</button>
+	<button class="button" onclick="document.getElementById('checkout').scrollIntoView()" style="background-color: lightgray; color: black; right:40px; position: fixed; bottom: 50px;">CheckOut</button>
+ </div>
+   
+  
+  
+ 
+</body>
+
+</html>

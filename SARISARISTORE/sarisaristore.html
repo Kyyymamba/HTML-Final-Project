@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="logo.png" style="width: 280px; margin-bottom:20px;">
+      <button id="jeans" onclick="populateList('Jeans')">Jeans</button>
+      <button id="tshirt" onclick="populateList('T-shirt')">T-shirt</button>
+      <button id="perfume" onclick="populateList('Perfume')">Perfume</button>
+      <button id="sando" onclick="populateList('Sando')">Sando</button>
+      <button id="toys" onclick="populateList('Toys')">Toys</button>
+      <button id="viewCartBtn" onclick="displayCart()" style="margin-top: 260PX; background-color: #ff4848; color: white;">View Cart</button> 
+      <button id="newTabStock" onclick="newTabStock()" style="margin-top: 20px; background-color: blue; color: white;">Add Stock</button>
+
+    </div>
+    <div class="content">
+      <ul id="itemList"></ul>
+    </div>
+  </div>
+
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtn" class="close" onclick="closeModal()">&times;</span> 
+      <h2>Shopping Cart</h2>
+      <div id="cartItems"></div>
+      <button id="checkoutBtn" onclick="displayReceipt()">Checkout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
